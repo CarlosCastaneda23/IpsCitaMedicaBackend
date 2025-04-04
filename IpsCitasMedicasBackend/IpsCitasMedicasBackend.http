@@ -1,0 +1,6 @@
+@IpsCitasMedicasBackend_HostAddress = http://localhost:5067
+
+GET {{IpsCitasMedicasBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

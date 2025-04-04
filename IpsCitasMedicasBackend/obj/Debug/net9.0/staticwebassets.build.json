@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NmfutRnK2kJtt0HeKyxJsdRlskVnMIAACElPiE2QzM4=",
+  "Source": "IpsCitasMedicasBackend",
+  "BasePath": "_content/IpsCitasMedicasBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
