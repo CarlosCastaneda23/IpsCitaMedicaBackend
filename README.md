@@ -17,29 +17,36 @@ Este es el backend de una aplicación para agendar citas médicas en una IPS, de
 
 ### 1. 🔃 Clona el repositorio
 
----
+```bash
 git clone <URL_DEL_REPOSITORIO>
 cd IpsCitasMedicasBackend
+```
 ---
 ### 2. 🔃 Configura la cadena de conexión: Edita el archivo appsettings.json con tu configuración local de SQL Server
+```
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=IpsCitasDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
+```
 ---
 ###3. ⚙️ Ejecuta las migraciones y siembra los datos
 Desde la terminal (en la raíz del proyecto):
-
+```
 dotnet ef database update
-
+```
 Esto creará la base de datos IpsCitasDb con las tablas y datos de ejemplo (médicos, pacientes y citas).
 
 Si no tienes instalado EF Core CLI:
+```
 dotnet tool install --global dotnet-ef
+```
 ---
 4. ▶️ Ejecuta el servidor
-
+```
 dotnet run
-
+```
+```
 https://localhost:5001
 http://localhost:5000
 http://localhost:5067
+```
